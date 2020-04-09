@@ -1,0 +1,204 @@
+reference:
+- title: Basic dashboard functions
+  desc: Dashboard skeleton functions
+  contents: 
+  - '`bs4DashPage`'
+  - '`bs4DashNavbar`'
+  - '`bs4DashBody`'
+  - '`bs4DashFooter`'
+  - '`bs4DashSidebar`'
+  - '`bs4DashControlbar`'
+  - '`bs4DashControlbarItem`'
+  - '`bs4DashControlbarMenu`'
+  
+- title: Layout functions
+  desc: Bootstrap 4 Layout utils
+  contents: 
+  - '`column`'
+  
+  
+- title: Feedback related functions
+  desc: Bootstrap 4 popovers, tooltips, ...
+  contents: 
+  - '`bs4PopoverServer`'
+  - '`bs4PopoverUI`'
+  - '`bs4TooltipServer`'
+  - '`bs4TooltipUI`'
+  
+
+- title: Update functions
+  desc: Dynamically update UI elements
+  contents: 
+  - '`updatebs4Card`'
+  - '`updatebs4CardSidebar`'
+  - '`updatebs4Controlbar`'
+  - '`updatebs4ControlbarMenu`'
+  - '`updatebs4Sidebar`'
+  - '`updatebs4TabItems`'
+  - '`updatebs4TabSetPanel`'
+    
+- title: Body content functions
+  desc: Functions that are to be used in the bs4DashBody
+  contents:
+  - '`bs4TabItems`'
+  - '`bs4TabItem`'
+    
+- title: Sidebar Content functions
+  desc: Functions that are to be used in the bs4DashSidebar
+  contents:
+  - '`bs4SidebarMenu`'
+  - '`bs4SidebarMenuItem`'
+  - '`bs4SidebarMenuSubItem`'
+  - '`bs4SidebarHeader`'
+  - '`bs4SidebarUserPanel`'
+    
+- title: Navbar Content functions
+  desc: Functions that are to be used in the bs4DashNavbar
+  contents:
+  - '`bs4DropdownMenu`'
+  - '`bs4DropdownMenuItem`'
+  - '`bs4UserMenu`'
+    
+- title: Cards and boxes
+  desc: Build cards and boxes
+  contents:
+  - '`bs4Box`'
+  - '`bs4InfoBox`'
+  - '`bs4ValueBox`'
+  - '`bs4Card`'
+  - '`bs4CardLabel`'
+  - '`bs4CardSidebar`'
+  - '`bs4TabCard`'
+  - '`bs4UserCard`'
+  - '`bs4SocialCard`'
+
+- title: Card Toolbar components
+  desc: Build dropdown menu in the tool area (close, collapse)
+  contents:
+  - '`dropdownDivider`'
+  - '`dropdownItem`'
+  - '`dropdownItemList`'
+  
+- title: Tab card elements
+  desc: Functions that are to be used in bs4TabCard
+  contents:
+  - '`bs4InsertTab`'
+  - '`bs4RemoveTab`'
+  - '`bs4TabPanel`'
+  - '`bs4TabSetPanel`'
+  
+- title: Card extra elements
+  desc: Add more shiny elements to your cards
+  contents:
+  - '`attachmentBlock`'
+  - '`descriptionBlock`' 
+  - '`cardComment`'
+  - '`cardPad`'
+  - '`cardProfile`'
+  - '`cardProfileItemList`'
+  - '`cardProfileItem`'
+  - '`bs4Ribbon`'
+  
+- title: Sortable UI
+  desc: Sort elements such as cards
+  contents:
+  - '`bs4Sortable`'
+    
+- title: Render functions
+  desc: Dynamically generate items
+  contents:
+  - '`bs4ValueBoxOutput`'
+  - '`bs4InfoBoxOutput`'
+  - '`renderbs4ValueBox`'
+  - '`renderbs4InfoBox`'
+    
+- title: Other bs4 items
+  desc: To better customize your app
+  contents:
+  - '`bs4Accordion`'
+  - '`bs4AccordionItem`'
+  - '`bs4Alert`'
+  - '`bs4Badge`'
+  - '`bs4Callout`'
+  - '`bs4Carousel`'
+  - '`bs4CarouselItem`'
+  - '`bs4Jumbotron`'
+  - '`bs4ListGroup`'
+  - '`bs4ListGroupItem`'
+  - '`bs4Loading`'
+  - '`bs4ProgressBar`'
+  - '`bs4Quote`'
+  - '`bs4Stars`'
+  - '`bs4Table`'
+  - '`bs4TableItem`'
+  - '`bs4TableItems`'
+  - '`bs4Timeline`'
+  - '`bs4TimelineEnd`'
+  - '`bs4TimelineItem`'
+  - '`bs4TimelineItemMedia`'
+  - '`bs4TimelineLabel`'
+  - '`bs4TimelineStart`'
+  - '`getAdminLTEColors`'
+  - '`ionicon`'
+  - '`userMessage`'
+  - '`userMessages`'
+  - '`userPost`'
+  - '`userPostTagItems`'
+  - '`userPostTagItem`'
+  - '`userPostMedia`'
+
+- title: Gallery
+  desc: bs4Dash showcase
+  contents:
+  - '`bs4DashGallery`'
+
+
+template:
+  params:
+    bootswatch: journal
+    
+    
+navbar:
+  structure:
+    left:
+    - home
+    - intro
+    - reference
+    - articles
+    - tutorials
+    - news
+    right: github
+  components:
+    home:
+      icon: fa-home fa-lg
+      href: index.html
+    reference:
+      text: Reference
+      href: reference/index.html
+    news:
+      text: Changelog
+      href: news/index.html
+    github:
+      icon: fa-github fa-lg
+      href: https://github.com/RinteRface/bs4Dash
+      
+
+articles:
+- title: All vignettes
+  desc: ~
+  contents:
+  - '`bs4Intro`'
+  - '`bs4Themes`'
+  - '`bs4cards`'
+  - '`bs4sortable`'
+  
+  
+news:
+ releases:
+ - text: "bs4Dash 0.6.0.9000"
+ - text: "bs4Dash 0.5.0"
+ - text: "bs4Dash 0.4.0"
+ - text: "bs4Dash 0.3.0"
+ - text: "bs4Dash 0.2.0"
+ - text: "bs4Dash 0.1.0"
+ 

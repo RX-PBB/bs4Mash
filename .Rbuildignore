@@ -1,0 +1,12 @@
+^revdep$
+^Meta$
+^doc$
+^CRAN-RELEASE$
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.travis\.yml$
+^pkgdown$
+^_pkgdown\.yml$
+^docs$
+^cran-comments\.md$
+^codecov\.yml$

@@ -1,0 +1,9 @@
+pandoc: 2.9.2.1
+pkgdown: 1.4.1
+pkgdown_sha: ~
+articles:
+  bs4Intro: bs4Intro.html
+  bs4Themes: bs4Themes.html
+  bs4cards: bs4cards.html
+  bs4sortable: bs4sortable.html
+
