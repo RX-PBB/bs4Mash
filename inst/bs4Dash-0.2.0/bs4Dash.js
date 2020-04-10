@@ -19,8 +19,8 @@ $(function () {
   // ensure that this code does not locally
   if (typeof workerId != "undefined") {
     var pathname = window.location.pathname;
-    var newpath = pathname; //+ workerId;
-    window.history.replaceState( {} , 'newpath', newpath);
+    var newpath = pathname + workerId;
+   // window.history.replaceState( {} , 'newpath', newpath);
   }
 
   // footer has fixed layout?
